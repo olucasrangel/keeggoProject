@@ -11,3 +11,5 @@ jspm_modules/
 # Optional npm cache directory
 
 .npm
+
+temp/

@@ -44,8 +44,8 @@ cypress/
 │   └── fluxo-carrinho.js
 ├── fixtures/                  # Dados de teste
 ├── support/                   # Comandos personalizados e configurações globais
-    ├── pages
-        └── elements-fluxo-carrinho.js
+│   ├── pages/
+│   │   └── elements-fluxo-carrinho.js
 │   └── commands.js
 ├── cypress.config.js          # Configurações do Cypress e Cucumber
 └── README.md                  # Documentação do projeto
