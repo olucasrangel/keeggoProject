@@ -1,0 +1,21 @@
+{
+  "name": "keeggoproject",
+  "version": "1.0.0",
+  "description": "Projeto para resolver testes técnicos com Cucumber",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "cypress open --e2e",
+    "cy:run": "cypress run --headless"
+  },
+  "keywords": [],
+  "author": "Lucas Rangel",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^13.13.3",
+    "cypress-cucumber-preprocessor": "^4.3.1"
+  },
+  "cypress-cucumber-preprocessor":{
+    "nonGlobalStepDefinitions": true,
+    "stepDefinitions": "cypress/e2e/feature"
+  }
+}
