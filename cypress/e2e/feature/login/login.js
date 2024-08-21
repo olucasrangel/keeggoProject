@@ -1,6 +1,6 @@
 import { Given, When, Then } from "cypress-cucumber-preprocessor/steps";
 
-const utils = require("../../../support/utils/elements-login").ELEMENTS;
+const utils = require("../../../support/pages/elements-login").ELEMENTS;
 
 Given("que estou na página inicial do Advantage Online Shopping", () => {
   cy.visit("/");
