@@ -23,8 +23,8 @@ And("estou com meu carrinho vazio", () => {
     headers: {
       Authorization: `Bearer ${token}`,
     },
-    failOnStatusCode: false, // Para não falhar automaticamente em status codes não esperados
-  }).as("deleteCartResponse"); // Armazena a resposta para referência posterior
+    failOnStatusCode: false,
+  }).as("deleteCartResponse");
 });
 
 And("status da resposta é {int}", (expectedStatusCode) => {
